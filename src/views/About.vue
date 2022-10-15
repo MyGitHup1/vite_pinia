@@ -5,7 +5,7 @@
   <button @click="store.increment">加</button>
   <button @click="store.decrement">减</button>
   <audio autoplay muted controls @volumechange="volumechange">
-<!--    <source src="~$/花粥、马雨阳-盗将行.mp3">-->
+    <source src="~$/花粥、马雨阳-盗将行.mp3">
   </audio>
 </template>
 <script>
