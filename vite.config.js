@@ -15,8 +15,12 @@ export default defineConfig({
         preserveSymlinks:true
     },
     server: {
-        open:true,
+        base:"/api/",
+        // open:true,
         port: 8080,
         host: "0.0.0.0",
+    },
+    build:{
+        assetsDir:"api"
     }
 })
